@@ -1,0 +1,13 @@
+body { font-family: Arial; margin:0; background:#f5f7fb; }
+.site-header { background:#04132b; color:#fff; padding:15px; display:flex; justify-content:space-between; }
+.logo-text { font-weight: bold; color:#ffd938; font-size:20px; }
+.logo-text span { color:#fff; }
+.main-nav a { margin-left:15px; color:#fff; }
+.hero { padding:40px; background:#071321; color:#fff; }
+.btn { padding:10px 20px; border-radius:5px; display:inline-block; }
+.btn-primary { background:#ffd938; color:#04132b; }
+.card { background:#fff; padding:20px; border-radius:10px; }
+input, select, textarea { width:100%; padding:10px; margin:8px 0; border-radius:5px; border:1px solid #ccc; }
+.full-width { width:100%; }
+.section { padding:40px; }
+.site-footer { background:#020617; color:#aaa; text-align:center; padding:15px; }

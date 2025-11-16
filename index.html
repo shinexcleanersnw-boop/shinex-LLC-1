@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shinex L.L.C – Professional Cleaning Services</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo-text">SHINEX <span>L.L.C</span></div>
+      <nav class="main-nav">
+        <a href="#services">Services</a>
+        <a href="#why-us">Why Us</a>
+        <a href="#hospital">Hospital Cleaning</a>
+        <a href="#booking" class="nav-cta">Book Now</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Brilliantly Clean Spaces, Every Time.</h1>
+          <p>Shinex L.L.C delivers professional cleaning services for homes, hotels, offices, Airbnbs, and hospitals.</p>
+          <a href="#booking" class="btn btn-primary">Book a Cleaning</a>
+        </div>
+
+        <div class="hero-card">
+          <h2>Quick Booking</h2>
+          <form class="hero-form" action="https://formspree.io/f/your-form-id" method="POST">
+            <input type="text" name="name" placeholder="Full Name" required />
+            <input type="tel" name="phone" placeholder="Phone Number" required />
+            <input type="email" name="email" placeholder="Email Address" required />
+            <select name="service" required>
+              <option disabled selected>Select Service</option>
+              <option>Home / Residential</option>
+              <option>Office / Commercial</option>
+              <option>Hotel / Airbnb</option>
+              <option>Hospital Cleaning</option>
+            </select>
+            <button type="submit" class="btn btn-primary full-width">Request Callback</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="booking">
+      <div class="container">
+        <h2>Book Your Cleaning</h2>
+        <form class="booking-form card" action="https://formspree.io/f/your-form-id" method="POST">
+          <input name="full-name" type="text" placeholder="Full Name" required />
+          <input name="phone" type="tel" placeholder="Phone Number" required />
+          <input name="email" type="email" placeholder="Email" required />
+          <input name="address" type="text" placeholder="Address" required />
+          <input name="datetime" type="datetime-local" required />
+          <textarea name="instructions" placeholder="Special Instructions"></textarea>
+          <button type="submit" class="btn btn-primary full-width">Submit Booking</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2025 Shinex L.L.C</p>
+  </footer>
+</body>
+</html>
